@@ -7,7 +7,8 @@ When we sign up on website its send a email for confirmation to active an accoun
                   for windows: env/Scripts/Activate
 4) cd Django-Registration folder
 5) pip install -r requirements.txt
-6) python manage.py runserver
+6) python manage.py migrate
+7) python manage.py runserver
 7) Open http://127.0.0.1:8000
 
 ![django_1](https://user-images.githubusercontent.com/14355490/54023490-18aa1400-41bb-11e9-98cb-ff55055b5e35.png)
